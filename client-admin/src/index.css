@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* login admin*/
+.align-valign-center {
+  background-color: lightseagreen;
+}
+h2.text-center {
+  color: bisque;
+}
+td {
+  font-weight: 500;
+  color: black;
+}
+input[type="submit"] {
+  background: lightsalmon;
+}
+/* Admin Home */
+h2#admin {
+  color: black;
+  border: 5px solid;
+  background: bisque;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: coral;
+}
+a:hover {
+  color: gold;
+  transition: 0.5s;
+}
+h2#detail {
+  color: coral;
+}
+input[type="submit"] {
+  background: lightsalmon;
+  color: aliceblue;
+}
+h2#cate-list {
+  color: firebrick;
+  border: 4px solid;
+  background: antiquewhite;
+}
+th {
+  background: darkorange;
+  color: aliceblue;
+}
+h2#detail {
+  color: coral;
+  border: 4px solid;
+  background: black;
+}
+h2#product-list {
+  color: black;
+  border: 4px solid;
+  background: bisque;
+}
+h2#product-detail {
+  color: bisque;
+  border: 4px solid;
+  margin-left: 10px;
+  background: black;
+}
+div.float-right {
+  float: right;
+  margin-left: 15px;
+}
+h2#order-list {
+  border: 4px solid;
+  color: black;
+  background: antiquewhite;
+}
+h2#order-detail {
+  color: bisque;
+  background: black;
+  border: 4px solid;
+}
+h2#customer-list {
+  color: black;
+  background: bisque;
+  border: 4px solid;
+}
+h2#order-list {
+  color: bisque;
+  background: black;
+  border: 4px solid;
+}

@@ -1,0 +1,204 @@
+/*styles.css*/
+.body-customer {
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+  margin-top: 0;
+}
+span.link {
+  cursor: pointer;
+  color: darkcyan;
+  text-decoration: none;
+}
+/*Menu.css*/
+div.border-bottom {
+  padding: 10px 0px 10px;
+  background: rgb(43, 33, 33);
+  color: white;
+  padding: 10px;
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css*/
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/*header*/
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/*even rows, except header*/
+tr:not(:first-child):nth-child(odd).database {
+  background-color: #ffeeaa;
+}
+/*except header*/
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-weight: bold;
+}
+a:hover {
+  color: darkcyan;
+}
+input.keyword {
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  height: 25px;
+  border-radius: 10px;
+  background: floralwhite;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  color: white;
+  background: tomato;
+  cursor: pointer;
+}
+.container {
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+.product {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+
+  border: white 1px solid;
+}
+.product:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.product img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 300px;
+  height: 250px;
+}
+figcaption.text-center {
+  background: aquamarine;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+form.form-login {
+  padding-top: 150px;
+  color: black;
+  font-weight: bold;
+}
+.form-login {
+  background-image: url("https://cdn.dribbble.com/users/1161517/screenshots/7896076/media/24ae74ddb6c9eb7789ae3a189a6b30ae.gif"); /* Đường dẫn đến hình ảnh nền */
+  background-size: cover; /* Đảm bảo hình ảnh nền được hiển thị đúng cách */
+  background-position: center; /* Căn giữa hình ảnh nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh nền */
+  padding: 10px; /* Tăng khoảng cách nếu cần thiết */
+  width: 100vh;
+  height: 100vh;
+}
+.form-register {
+  background-image: url("https://cdnl.iconscout.com/lottie/premium/thumb/apple-logo-5684282-4735185.gif");
+  background-size: cover; /* Đảm bảo hình ảnh nền được hiển thị đúng cách */
+  background-position: center; /* Căn giữa hình ảnh nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh nền */
+  padding: 10px; /* Tăng khoảng cách nếu cần thiết */
+  width: 100vh;
+  height: 50vh;
+  padding-top: 100px;
+  color: gold;
+}
+img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 300px;
+  height: 250px;
+}
+.detail-form {
+  margin-left: 3px;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+div#datatable {
+  color: black;
+  font-weight: bold;
+  background: floralwhite;
+}
+b {
+  color: tomato;
+}
+a.logout {
+  color: blanchedalmond;
+}
+.container1 {
+  font-weight: bold;
+  padding-top: 5px;
+  background-image: url("https://archive.org/download/bubble-apple-gif-with-original-colors-inverted-2014/Bubble%20Apple%20Gif%20With%20Original%20Colors%20Inverted.gif");
+  background-size: cover; /* Đảm bảo hình ảnh nền được hiển thị đúng cách */
+  background-position: center; /* Căn giữa hình ảnh nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh nền */
+  /* Tăng khoảng cách nếu cần thiết */
+  width: 100vh;
+  height: 60vh;
+  color: black;
+  margin-left: 400px;
+}
+@media screen and (max-width: 768px) {
+  /* Styles cho tablet và di động */
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles cho di động */
+}
